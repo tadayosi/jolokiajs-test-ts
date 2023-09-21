@@ -10,13 +10,13 @@
     "build": "tsc",
     "test": "jest",
     "format": "prettier . --write",
-    "basic": "node src/basic.js",
-    "simple": "node src/simple.js",
-    "cubism": "node src/cubism.js"
+    "basic": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/basic.ts",
+    "simple": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/simple.ts",
+    "cubism": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/cubism.ts"
   },
   "dependencies": {
     "cubism": "^1.6.0",
-    "jolokia.js": "^2.0.0-dev.2",
+    "jolokia.js": "^2.0.0-dev.3",
     "jquery": "^3.7.1",
     "jsdom": "^22.1.0"
   },
