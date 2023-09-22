@@ -12,11 +12,12 @@
     "format": "prettier . --write",
     "basic": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/basic.ts",
     "simple": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/simple.ts",
+    "list": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/list.ts",
     "cubism": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/cubism.ts"
   },
   "dependencies": {
     "cubism": "^1.6.0",
-    "jolokia.js": "^2.0.0-dev.3",
+    "jolokia.js": "^2.0.0-dev.4",
     "jquery": "^3.7.1",
     "jsdom": "^22.1.0"
   },
