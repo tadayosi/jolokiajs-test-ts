@@ -2,7 +2,7 @@
   "name": "jolokia.js-test-ts",
   "version": "1.0.0",
   "description": "Jolokia.js Test in TypeScript",
-  "main": "dist/index.js",
+  "main": "dist/basic.js",
   "author": "Tadayoshi Sato",
   "license": "Apache-2.0",
   "scripts": {
