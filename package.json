@@ -11,6 +11,7 @@
     "test": "jest",
     "format": "prettier . --write",
     "basic": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/basic.ts",
+    "bulk": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/bulk.ts",
     "simple": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/simple.ts",
     "list": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/list.ts",
     "cubism": "ts-node --compilerOptions='{\"module\":\"commonjs\"}' src/cubism.ts"
